@@ -1,41 +1,23 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
+<p align="center">
+    <img src="https://res.cloudinary.com/teepublic/image/private/s--voGlmms3--/c_crop,x_10,y_10/c_fit,w_1109/c_crop,g_north_west,h_945,w_1260,x_-76,y_-76/co_rgb:ffb81c,e_colorize,u_Misc:One%20Pixel%20Gray/c_scale,g_north_west,h_945,w_1260/fl_layer_apply,g_north_west,x_-76,y_-76/bo_180px_solid_white/e_overlay,fl_layer_apply,h_945,l_Misc:Art%20Print%20Bumpmap,w_1260/e_shadow,x_6,y_6/c_limit,h_1134,w_1134/c_lpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1539273850/production/designs/3302095_0.jpg" width="200px" height="200px" alt="javascript"/>
+    <img src="https://jquery-plugins.net/image/plugin/dom-to-image-generate-image-from-dom-with-html5-canvas.png" width="200px" height="200px" alt="DOM"/>
 </p>
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+---------------------------------------------------------------------------------------------------------
+# INTRODUCTION
 
-##### Download the boilerplate using git
+In this project it has been done by having  three buttons and a circle that represents the traffic light.
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+## Functionality
 
-##### and install the npm package:
-```
-$ npm install
-```
+Use the buttons to change the color of the traffic light and select if you want that display the pass color (green), the danger color (yellow) and the stop color (red).
 
-## Start coding!
+To test the code if you use gitpod you can use the following steps:
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
+### *) How i initiate it?
 
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+1) `git clone https://github.com/fjrf16/Traffic_Light.git`
+2) `npm install`
+3) `npm run start`
 
-## Publish your website!
-
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
-
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+Create with ❤️ by @fjrf16
