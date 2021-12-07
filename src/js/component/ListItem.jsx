@@ -5,7 +5,9 @@ import "../../styles/ListItem.scss";
 
 const ListItem = props => {
 	return (
-		<>  {/*Definition of a element in the list*/}
+		<>
+			{" "}
+			{/*Definition of a element in the list*/}
 			<li className="d-flex justify-content-between" key={props.ix}>
 				{props.valueR}
 				<button

@@ -32,7 +32,9 @@ const List = props => {
 					</div>
 				</form>
 			</div>
-			<ul> {/*Its go through the list and include the elements in it */}
+			<ul>
+				{" "}
+				{/*Its go through the list and include the elements in it */}
 				{list.map((value, i) => (
 					<ListItem
 						key={i}
