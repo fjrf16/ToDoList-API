@@ -6,22 +6,20 @@ import "../../styles/ListItem.scss";
 const ListItem = props => {
 	return (
 		<>
-			{" "}
-			{/*Definition of a element in the list*/}
 			<li className="d-flex justify-content-between" key={props.ix}>
 				{props.valueR}
 				<button
 					onClick={() => {
 						props.removeHandler();
 					}}>
-					<i className="fas fa-times"></i>
-				</button>
+					<i className="fas fa-trash"></i>
+				</button>{" "}
 			</li>
 		</>
 	);
 };
 ListItem.propTypes = {
-	ix: PropTypes.num,
+	ix: PropTypes.number,
 	valueR: PropTypes.string,
 	removeHandler: PropTypes.func
 };
